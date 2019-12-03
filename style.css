@@ -1,0 +1,59 @@
+body{background-color: #ECE5DD;}
+.heading {
+    background-color: #128c7e;
+    height: 100px;
+}
+
+.chat ,.status, .call {
+    color: #ECE5DD;
+    border-bottom: solid #fff 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.camera {
+    padding: 5px;
+    border-radius: 10%;
+    margin: 30px 0px 30px 20px;
+    width: 50px;
+    background-color: rgba(236, 229, 221, 0.7);
+    position: relative;
+    top: 15px;
+}
+
+.camera-1 {
+    border-radius: 50%;
+    border: #075E54 solid 2px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent
+    display: flex;
+    align-self: center;
+    position: relative;
+    right: 35px;
+    top: 15px;
+}
+
+.camera-2 {
+    width: 20px;
+    height: 5px;
+    background-color: rgba(236, 229, 221, 0.7);
+    display: flex;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    top: 40px;
+    right: 55px;
+}
+
+.icon, .app {
+    display: inline-flex;
+    color: #ECE5DD;
+    align-items: center;
+}
+
+.search {
+    padding-right: 50px;
+}
