@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>whatsapp</title>
 </head>
 <body>
@@ -20,20 +21,33 @@
                 <h4>more Options</h4>
             </div>
         </div>
-        <div class="row heading">
+        <div class="row heading tabs">
             <div class="camera"></div>
             <div class="camera-1"></div>
             <div class="camera-2"></div>
             <div class="col nav-item">
-                <a class="nav-link active chat" href="#">CHATS</a>
+                <a class="nav-link active tab" onclick="openTab(event, 1)" href="#">CHATS</a>
             </div>
             <div class="col nav-item">
-                <a class="nav-link status" href="#">STATUS</a>
+                <a class="nav-link tab" onclick="openTab(event, 2)" href="#">STATUS</a>
             </div>
             <div class="col nav-item">
-                <a class="nav-link call" href="#">CALLS</a>
+                <a class="nav-link tab" onclick="openTab(event, 3)" href="#">CALLS</a>
             </div>
-        </div>   
+        </div> 
+        
+        <div class="tabcontent" id="1">
+            <h2>Tab 1 content</h2>
+            <p>tab 1 description</p>
+        </div>
+        <div class="tabcontent" id="2">
+            <h2>Tab 2 content</h2>
+            <p>tab 2 description</p>
+        </div>
+        <div class="tabcontent" id="3">
+            <h2>Tab 3 content</h2>
+            <p>tab 3 description</p>
+        </div>
     </div>     
 </body>
-</html>
+</html> 

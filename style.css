@@ -4,7 +4,7 @@ body{background-color: #ECE5DD;}
     height: 100px;
 }
 
-.chat ,.status, .call {
+.tab {
     color: #ECE5DD;
     border-bottom: solid #fff 5px;
     display: flex;
@@ -56,4 +56,8 @@ body{background-color: #ECE5DD;}
 
 .search {
     padding-right: 50px;
+} 
+
+.tabcontent {
+    display: none;
 }
